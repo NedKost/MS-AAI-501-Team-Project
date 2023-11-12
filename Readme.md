@@ -7,9 +7,9 @@
 ## Project Intro / Objective
 
 ## Partners / Contributors
-Ned Kost
-Brian Morris
-Anova Youngers
+Ned Kost  
+Brian Morris  
+Anova Youngers  
 
 ## Methods Used
 
