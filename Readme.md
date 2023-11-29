@@ -27,7 +27,7 @@ In this project we will focus on dataset identification, preprocessing and progr
 <b>Anova Youngers</b>:  Data Analysis, Data Preprocessing, Data Visualizations, Neural Net, Random Forest  
 
 ## Project Description & Methodology
-Data Collection and Aggregation:  The past 3 years of <a href=https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ>Airline On-Time Perormance</a> data data was downlated from the Bureau of Transportation <a href=https://www.transtats.bts.gov/databases.asp?Z1qr_VQ=E&Z1qr_Qr5p=N8vn6v10&f7owrp6_VQF=D>website<a>.  Once downloaded, the data was correlated into a single large dataset and randomply sampled for equal distributions of Delayed and Non-Delayed flights.  
+Data Collection and Aggregation:  The past 3 years of [Airline On-Time Perormance](https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ) data data was downlated from the Bureau of Transportation [website](https://www.transtats.bts.gov/databases.asp?Z1qr_VQ=E&Z1qr_Qr5p=N8vn6v10&f7owrp6_VQF=D).  Once downloaded, the data was correlated into a single large dataset and randomply sampled for equal distributions of Delayed and Non-Delayed flights.  
 
 Data Exploration and Analytics:
 
