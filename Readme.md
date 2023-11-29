@@ -11,9 +11,9 @@ We supplement base airline traffic data (e.g. flight date, carrier, origin and d
 In this project we will focus on dataset identification, preprocessing and programmatically enriching these datasets for additional features, statistical analysis, and data visualizations.  Once we are ready to involve models we will analyze the model behavior, perform parameter tuning, and compare model performance to identify the best type of model for this classification problem.
 
 ## Partners / Contributions
-Ned Kost:  Data Collection (Carrier Employee Data), Data Analysis, Data Preprocessing, Logistic Regression, XGBoos Classifier 
-Brian Morris:  Data Collection (weather), Data Analysis, Data Preprocessing, Neural Net, Random Forest
-Anova Youngers  Data Analysis, Data Preprocessing, Data Visualizations, Neural Net, Random Forest
+<b>Ned Kost</b>:  Data Collection (Carrier Employee Data), Data Analysis, Data Preprocessing, Logistic Regression, XGBoos Classifier  
+<b>Brian Morris</b>:  Data Collection (weather), Data Analysis, Data Preprocessing, Neural Net, Random Forest  
+<b>Anova Youngers</b>:  Data Analysis, Data Preprocessing, Data Visualizations, Neural Net, Random Forest  
 
 ## Methods Used
 
