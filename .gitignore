@@ -161,3 +161,4 @@ cython_debug/
 
 .vscode/
 .DS_Store
+data/flight_data_large_balanced.csv
