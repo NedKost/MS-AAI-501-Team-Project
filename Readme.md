@@ -15,6 +15,12 @@ Python 3.8 or later is needed along with installed libraries including:
 * tensorflow
 * seaborn
 
+## Repository Structure
+├── data                   # Data files used in the project.  
+├── notebooks              # Jupyter Notebooks used in the project.
+├── docs                   # Documentation and Final Paper of the project
+└── README.md
+
 ## Project Intro / Objective
 Flight delays, an inherent challenge in contemporary travel, pose significant repercussions for both airlines and passengers.  They are a pervasive issue incurring substantial costs for airlines, tarnishing their reputation, and causing frustration among passengers.  This project seeks to investigate this industry-wide concern by delving into the intricacies of Domestic US airline flight delays. Our project is motivated by the need to alleviate these challenges by unraveling the complexities behind flight delays and proposing intelligent predictive solutions.  Our team aims to comprehensively understand the factors contributing to delays and, subsequently, employ artificial intelligence models to predict these disruptions.  By focusing on this binary classification problem, we intend to deploy a range of models, including Logistic Regression, Neural Nets, Random Forest Trees, and Gradient Boosting, to optimize predictive accuracy.
 
@@ -27,7 +33,9 @@ In this project we will focus on dataset identification, preprocessing and progr
 <b>Anova Youngers</b>:  Data Analysis, Data Preprocessing, Data Visualizations, Neural Net, Random Forest  
 
 ## Project Description & Methodology
-**Data Collection and Aggregation**:  The past 3 years of [Airline On-Time Perormance](https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ) data data was downloaded from the Bureau of Transportation [website](https://www.transtats.bts.gov/databases.asp?Z1qr_VQ=E&Z1qr_Qr5p=N8vn6v10&f7owrp6_VQF=D), and supplemented with Carrier Employee data  also downloaded from the Bureau of Transportation [website](https://www.transtats.bts.gov/Employment/).  Once downloaded, the data was correlated into a single large dataset and randomly sampled for equal distributions of 360,000 Delayed and Non-Delayed flights. An API call was used to supplement this dataset from the [National Oceanic and Atmospheric Administration](https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database).  Since the original 3 years of flight data was too large, we only supplmeneted this smaller dataset with weather data due to time constraints in pulling data for each individual flight.
+**Data Collection and Aggregation**:  The past 3 years of [Airline On-Time Perormance](https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ) data data was downloaded from the Bureau of Transportation [website](https://www.transtats.bts.gov/databases.asp?Z1qr_VQ=E&Z1qr_Qr5p=N8vn6v10&f7owrp6_VQF=D), and supplemented with Carrier Employee data  also downloaded from the Bureau of Transportation [website](https://www.transtats.bts.gov/Employment/).  
+
+Once downloaded, the data was correlated into a single large dataset and randomly sampled for equal distributions of 360,000 Delayed and Non-Delayed flights. An API call was used to supplement this dataset from the [National Oceanic and Atmospheric Administration](https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database).  Since the original 3 years of flight data was too large, we only supplmeneted this smaller dataset with weather data due to time constraints in pulling data for each individual flight.
 Notebooks used:
 - data_preprocessing
 - data_preprocessing_large
@@ -63,6 +71,7 @@ Notebooks used
 - random_forest
 - random_ForestFlight_Failed
 - XGBoost Model
+
 
 ## License
 This project is privded under the Apache License 2.0.  Please see the [LICENSE](https://github.com/NedKost/usd_data_hackathon_2023/blob/main/LICENSE) file for more information.
