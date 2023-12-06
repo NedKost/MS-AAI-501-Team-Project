@@ -53,7 +53,7 @@ Notebooks used:
 - Data Exploration_NK
 - data_explore_sigtest
 
-Data Modeling:  Once the dataset was understood, we began formulating various models to test with each of the feature sets.  We first trained and tested the models using the sample data set of 360,000 records, utilizing features from all three sets.  From there, we gradually decreased our features to only sets 1 and 2, and lastly to only using feature set 1, in order to identify the most impactful features and determine model performance with reduced variables.  Lastly we performed an experiment with larger datasets by expanding our training and testing data to include all delayed flights from the past 3 years, and a balanced number of ontime flights.    
+**Data Modeling**:  Once the dataset was understood, we began formulating various models to test with each of the feature sets.  We first trained and tested the models using the sample data set of 360,000 records, utilizing features from all three sets.  From there, we gradually decreased our features to only sets 1 and 2, and lastly to only using feature set 1, in order to identify the most impactful features and determine model performance with reduced variables.  Lastly we performed an experiment with larger datasets by expanding our training and testing data to include all delayed flights from the past 3 years, and a balanced number of ontime flights.    
 
 Notebooks used
 - Logistic Regression
