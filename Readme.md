@@ -16,10 +16,10 @@ Python 3.8 or later is needed along with installed libraries including:
 * seaborn
 
 ## Repository Structure
-├── data                   # Data files used in the project.  
-├── notebooks              # Jupyter Notebooks used in the project.
-├── docs                   # Documentation and Final Paper of the project
-└── README.md
+/data -> Data files used in the project.    
+/notebooks -> Jupyter Notebooks used in the project.  
+/docs -> Documentation and Final Paper of the project.  
+
 
 ## Project Intro / Objective
 Flight delays, an inherent challenge in contemporary travel, pose significant repercussions for both airlines and passengers.  They are a pervasive issue incurring substantial costs for airlines, tarnishing their reputation, and causing frustration among passengers.  This project seeks to investigate this industry-wide concern by delving into the intricacies of Domestic US airline flight delays. Our project is motivated by the need to alleviate these challenges by unraveling the complexities behind flight delays and proposing intelligent predictive solutions.  Our team aims to comprehensively understand the factors contributing to delays and, subsequently, employ artificial intelligence models to predict these disruptions.  By focusing on this binary classification problem, we intend to deploy a range of models, including Logistic Regression, Neural Nets, Random Forest Trees, and Gradient Boosting, to optimize predictive accuracy.
