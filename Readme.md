@@ -1,6 +1,6 @@
 # Airline Flight Delay Analysis and Modeling  
 ## MS-AAI-501 Introduction to Artificial Intelligence
-This README docuemts the Final Team project of Course #2 in the University of San Diego's Master's program for Applied Artificial Intelligence.
+This README outlines the coding done for a Final Team project of Course #2 in the University of San Diego's Master's program for Applied Artificial Intelligence.  This was a team project exploring a binary classification problem using a variety of AI models.  We leveraged publicly available python libraries supplemented with strategies and methodologies learned as part of the course.  Below is an outline of the project, contributions from team members, and a brief outline of how we approached the problem.
 
 ## Installation
 Python 3.8 or later is needed along with installed libraries including:
@@ -19,7 +19,7 @@ Python 3.8 or later is needed along with installed libraries including:
 Flight delays, an inherent challenge in contemporary travel, pose significant repercussions for both airlines and passengers.  They are a pervasive issue incurring substantial costs for airlines, tarnishing their reputation, and causing frustration among passengers.  This project seeks to investigate this industry-wide concern by delving into the intricacies of Domestic US airline flight delays. Our project is motivated by the need to alleviate these challenges by unraveling the complexities behind flight delays and proposing intelligent predictive solutions.  Our team aims to comprehensively understand the factors contributing to delays and, subsequently, employ artificial intelligence models to predict these disruptions.  By focusing on this binary classification problem, we intend to deploy a range of models, including Logistic Regression, Neural Nets, Random Forest Trees, and Gradient Boosting, to optimize predictive accuracy.
 
 We supplement base airline traffic data (e.g. flight date, carrier, origin and destination, and distance) with weather data and carrier employee data to enrich our feature set.  The algorithms will be used to predict delays and our analysis into these models will explain feature relevance, patterns, and correlations.  
-In this project we will focus on dataset identification, preprocessing and programmatically enriching these datasets for additional features, statistical analysis, and data visualizations.  Once we are ready to involve models we will analyze the model behavior, perform parameter tuning, and compare model performance to identify the best type of model for this classification problem.
+In this project we will focus on dataset identification, preprocessing and programmatically enriching these datasets for additional features, statistical analysis, and data visualizations.  Additionally we will utilize a variety of AI models, analyze their behavior, perform parameter tuning, and compare model performance to identify the best type of model for this classification problem.
 
 ## Partners / Contributions
 <b>Ned Kost</b>:  Data Collection (Carrier Employee Data), Data Analysis, Data Preprocessing, Logistic Regression, XGBoos Classifier  
@@ -53,7 +53,7 @@ Notebooks used:
 - Data Exploration_NK
 - data_explore_sigtest
 
-Data Modeling:  Once the dataset was understood, we began formulating various models to test with each of the feature sets.
+Data Modeling:  Once the dataset was understood, we began formulating various models to test with each of the feature sets.  We first trained and tested the models using the sample data set of 360,000 records, utilizing features from all three sets.  From there, we gradually decreased our features to only sets 1 and 2, and lastly to only using feature set 1, in order to identify the most impactful features and determine model performance with reduced variables.  Lastly we performed an experiment with larger datasets by expanding our training and testing data to include all delayed flights from the past 3 years, and a balanced number of ontime flights.    
 
 Notebooks used
 - Logistic Regression
@@ -67,4 +67,3 @@ Notebooks used
 ## License
 This project is privded under the Apache License 2.0.  Please see the [LICENSE](https://github.com/NedKost/usd_data_hackathon_2023/blob/main/LICENSE) file for more information.
 
-## Acknowledgements
