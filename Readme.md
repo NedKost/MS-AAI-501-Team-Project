@@ -66,11 +66,11 @@ Notebooks used:
 Notebooks used
 - Logistic Regression
 - neural_net
-- neural_net_large_dataset
 - Neural_NetFlight
 - random_forest
 - random_ForestFlight_Failed
 - XGBoost Model
+- plot_model_performance
 
 
 ## License
